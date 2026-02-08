@@ -3,4 +3,6 @@
   padding: 20px;
   height: 100vh;
   width: auto;
+  display: grid;
+  grid-template-columns: 1fr 3;
 }
