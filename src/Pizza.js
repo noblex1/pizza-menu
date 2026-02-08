@@ -3,12 +3,11 @@ import './App.css';
 function PizzaApp() {
   return (
     <div className="PizzaApp">
-      <h1>Welcome to the Pizza Menu!</h1>
-      <p>Choose your favorite pizza from our delicious menu.</p>
+        <Header />
+        <Menu />
         <Pizza />
-        <Pizza />
-        <Pizza />
-        <Pizza />
+        <Footer />
+
 
     </div>
   );
@@ -17,12 +16,36 @@ function PizzaApp() {
 function Pizza() {
   return (
     <div>
-    
+          <img src="/pizzas/p1.jpg" alt="Pepperoni Pizza" />
       <h2>Pepperoni Pizza</h2>
       <p>A classic pizza topped with pepperoni slices and melted cheese.</p>
-        <img src="/pizzas/p1.jpg" alt="Pepperoni Pizza" />
+      
+    </div>
+  );
+
+}
+
+function Header() {
+  return (
+      <h1>Pizza Menu</h1>
+  );
+}
+
+function Menu() {
+  return (
+    <div>
+        <Pizza />
+        <Pizza />
+        <Pizza />
     </div>
   );
 }
+
+function Footer() {
+  return (
+      <p>© 2026 Pizza Menu. All rights reserved.</p>
+  );
+}
+
 
 export default PizzaApp;
