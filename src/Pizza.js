@@ -16,7 +16,7 @@ function PizzaApp() {
 function Pizza() {
   return (
     <div>
-          <img src="/pizzas/p1.jpg" alt="Pepperoni Pizza" />
+        <img src="/pizzas/p1.jpg" alt="Pepperoni Pizza" />
       <h2>Pepperoni Pizza</h2>
       <p>A classic pizza topped with pepperoni slices and melted cheese.</p>
       
@@ -34,6 +34,7 @@ function Header() {
 function Menu() {
   return (
     <div>
+        <Pizza />
         <Pizza />
         <Pizza />
         <Pizza />
