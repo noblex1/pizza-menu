@@ -5,7 +5,6 @@ function PizzaApp() {
     <div className="PizzaApp">
         <Header />
         <Menu />
-        <Pizza />
         <Footer />
 
 
